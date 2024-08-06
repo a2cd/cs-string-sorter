@@ -35,6 +35,8 @@ bin-release/
 *.ipa
 *.apk
 
-StringSorterLib.Test
+bin\
+obj\
+**\TestResults\**
 StringSorter.sln.DotSettings.user
 
