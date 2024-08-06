@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSorterLib.Core", "StringSorterLib.Core\StringSorterLib.Core.csproj", "{8BCBB606-BF76-4F0E-AEF0-66957BF07E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringSorter.Test", "StringSorter.Test", "{71E55BFD-168D-4EDE-AC1F-153DEBD818C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder1", "SolutionFolder1", "{E80A8D71-1FD7-4BAD-A4E7-78363D5A5ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSorterLib.Test", "StringSorterLib.Test\StringSorterLib.Test.csproj", "{B8496C25-BA0D-441E-9623-331972C90322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BCBB606-BF76-4F0E-AEF0-66957BF07E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BCBB606-BF76-4F0E-AEF0-66957BF07E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BCBB606-BF76-4F0E-AEF0-66957BF07E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BCBB606-BF76-4F0E-AEF0-66957BF07E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8496C25-BA0D-441E-9623-331972C90322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8496C25-BA0D-441E-9623-331972C90322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8496C25-BA0D-441E-9623-331972C90322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8496C25-BA0D-441E-9623-331972C90322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
