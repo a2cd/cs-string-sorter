@@ -40,3 +40,4 @@ obj\
 **\TestResults\**
 StringSorter.sln.DotSettings.user
 
+*.nupkg
