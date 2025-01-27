@@ -27,12 +27,12 @@ public class StringSorterTest
     [Fact]
     public void TestDigit()
     {
-        var list = new List<string> { "A1", "A10A", "A10" };
+        var list = new List<string> { "A10A", "A100", "A1AB" };
         var ascActual = StringSorter.Sort(list);
-        Assert.Equal(new List<string> { "A1", "A10", "A10A" }, ascActual);
+        Assert.Equal(new List<string> { "A1AB", "A10A", "A100" }, ascActual);
 
         var descActual = StringSorter.Sort(list, OrderType.Desc);
-        Assert.Equal(new List<string> { "A10A", "A10", "A1" }, descActual);
+        Assert.Equal(new List<string> { "A100", "A10A", "A1AB" }, descActual);
     }
 
     [Fact]
